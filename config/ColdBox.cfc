@@ -83,7 +83,7 @@ component{
 	* Development environment
 	*/
 	function development(){
-		coldbox.customErrorTemplate = "/coldbox/system/includes/BugReport.cfm";
+		coldbox.customErrorTemplate = "/coldbox/system/exceptions/BugReport.cfm";
 		coldbox.handlersIndexAutoReload = true;
 		coldbox.handlerCaching = false;
 	}
